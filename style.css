@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(239, 237, 237);
+}
+.toolbar{
+  padding: 10px;
+}
+.wrap{
+  margin-left: 15px;
+  display: inline-flex;
+  gap: 15px;
+}
+input[type="color"]{
+  border: 0px transparent solid;
+  height: 30px;
+  width: 30px;
+  padding: 12px;
+  block-size: 0px;
+  inline-size: 0px;
+}
+#color1{
+  background-color: rgb(0, 0, 0);
+}
+#color2{
+  background-color: rgb(0, 0, 255);
+}
+#color3{
+  background-color: rgb(255, 0, 0);
+}
+#color4{
+  background-color: rgb(0, 128, 0);
+}
+#color5{
+  background-color: rgb(255, 255, 0);
+}
+#color6{
+  background-color: rgb(255, 165, 0);
+}
+#color7{
+  background-color: rgb(165, 42, 42);
+}
+#color8{
+  background-color: rgb(238, 130, 238);
+}
+#color9{
+  background-color: rgb(173, 216, 230);
+}
+#color10{
+  background-color: rgb(128, 0, 128);
+}
+canvas{
+  margin: 10px;
+  background-color: white;
+}
